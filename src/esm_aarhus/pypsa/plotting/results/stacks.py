@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-from ..styles.base import set_defaults
 
 def generation_stack(df: pd.DataFrame, *, title="Generation stack", ax=None):
     """
