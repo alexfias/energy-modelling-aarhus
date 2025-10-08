@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esm-aarhus"
+version = "0.1.0"
+description = "Aarhus University Energy System Modelling utilities"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pypsa",
+  "matplotlib",
+  "pandas",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
